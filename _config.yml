@@ -16,8 +16,9 @@ exclude:
   - Gemfile.lock
 
 # Variables personnalisées (vous pouvez les utiliser dans vos pages)
-github_repo: "https://github.com/VOTRE-USERNAME/VOTRE-REPO"
-discord_link: "https://discord.gg/VOTRE-DISCORD"
-youtube_channel: "https://youtube.com/VOTRE-CHAINE"
-contact_email: "contact@example.com"
+github_repo: "https://github.com/Pjoooo/skills-github-pages/"
+discord_link: "https://discord.gg/6zSnSUtJ"
+youtube_channel: "https://www.youtube.com/channel/UCl-AqtfwG96e9GidTT5WkXA"
+contact_email: "pascal@cutthemustard.fr"
+
 

@@ -38,6 +38,28 @@ header {
     position: relative;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-text {
+    flex: 1;
+}
+
+.header-image {
+    flex: 0 0 400px;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
 header h1 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 3.5em;
@@ -324,6 +346,16 @@ footer a:hover {
     
     header p {
         font-size: 1.1em;
+    }
+
+    .header-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header-image {
+        flex: 1 1 auto;
+        max-width: 100%;
     }
 
     .cta-buttons {

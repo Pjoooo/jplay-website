@@ -1,0 +1,248 @@
+---
+layout: default
+title: Accueil
+---
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <h1>🎵 J-Play revit en Open Source</h1>
+        <p>L'instrument de musique accessible à tous continue son aventure</p>
+        <div class="cta-buttons">
+            <a href="#download" class="btn btn-primary">Télécharger l'app</a>
+            <a href="#community" class="btn btn-secondary">Rejoindre Discord</a>
+            <a href="#donation" class="btn btn-secondary">Programme de dons</a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#story">L'histoire</a></li>
+        <li><a href="#download">Télécharger</a></li>
+        <li><a href="#developers">Développeurs</a></li>
+        <li><a href="#donation">Dons d'instruments</a></li>
+        <li><a href="#community">Communauté</a></li>
+    </ul>
+</nav>
+
+<!-- Story Section -->
+<section id="story">
+    <div class="container">
+        <h2>L'histoire du J-Play</h2>
+        <div class="story-content">
+            <p><strong>Notre mission était simple :</strong> rendre la musique accessible à tous. Pas besoin d'années de solfège, pas besoin d'être un geek. Juste l'envie de s'exprimer, de créer, de ressentir.</p>
+            
+            <p>Le J-Play est né d'une volonté de créer un instrument de musique numérique accessible à tout le monde. Une prise en main intuitive, un design coloré, et une expressivité sans pareille grâce à ses pads en silicone interchangeables.</p>
+
+            <p>Cette vision a touché des milliers de personnes : des enfants découvrant la joie de composer, des musicothérapeutes trouvant de nouveaux chemins vers leurs patients autistes, des écoles de musique réinventant l'apprentissage.</p>
+
+            <div class="story-highlights">
+                <div class="highlight-card">
+                    <div class="highlight-number">🏆</div>
+                    <h3>CES Innovation Award</h3>
+                    <p>2020</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-number">10 000+</div>
+                    <h3>Instruments vendus</h3>
+                    <p>Dans plus de 50 pays</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-number">🎓</div>
+                    <h3>Écoles & Centres</h3>
+                    <p>Médiathèques, collèges, musicothérapie</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 60px; text-align: center;">Pourquoi l'open source aujourd'hui ?</h3>
+            <p>Malgré cet impact, nous n'avons pas réussi à scaler le modèle économique et la société a dû fermer. Mais plutôt que laisser mourir ce qui a été construit, plutôt que voir 10 000 instruments devenir obsolètes, nous faisons le choix de l'<strong>open source</strong>.</p>
+
+            <p><strong>La mission reste la même : la musique pour tous.</strong> Mais maintenant, c'est la communauté qui la porte.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Download Section -->
+<section id="download">
+    <div class="container">
+        <h2>Pour les possesseurs de J-Play</h2>
+        <p style="text-align: center; font-size: 1.2em; margin-bottom: 40px;">
+            Votre J-Play continue de vivre ! Téléchargez l'application et rejoignez la communauté.
+        </p>
+
+        <div class="download-grid">
+            <div class="download-card">
+                <div class="download-icon">🍎</div>
+                <h3>macOS</h3>
+                <p>Compatible macOS 10.15+</p>
+                <a href="{{ site.github_repo }}/releases" class="btn btn-primary" style="margin-top: 20px;">Télécharger pour Mac</a>
+            </div>
+            <div class="download-card">
+                <div class="download-icon">🪟</div>
+                <h3>Windows</h3>
+                <p>Compatible Windows 10+</p>
+                <a href="{{ site.github_repo }}/releases" class="btn btn-primary" style="margin-top: 20px;">Télécharger pour Windows</a>
+            </div>
+        </div>
+
+        <div class="alert">
+            <div class="alert-title">⚠️ Note concernant iPad</div>
+            <p>La version iPad n'est pas encore disponible car la compilation nécessite de payer Apple (licence développeur). C'est un axe de développement prioritaire. Si la communauté souhaite financer cette version, nous pourrions organiser une campagne de financement participatif.</p>
+        </div>
+
+        <div style="max-width: 800px; margin: 60px auto; text-align: center;">
+            <h3>Besoin d'aide ?</h3>
+            <p style="margin: 20px 0;">
+                📺 <a href="{{ site.youtube_channel }}" style="color: var(--primary); font-weight: 600;">Tutoriels sur YouTube</a><br>
+                💬 <a href="#community" style="color: var(--primary); font-weight: 600;">Support sur Discord</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Developers Section -->
+<section id="developers">
+    <div class="container">
+        <h2>Pour les développeurs</h2>
+        <p style="text-align: center; font-size: 1.2em; margin-bottom: 50px;">
+            Le code est ouvert, propre, documenté. Contribuez à faire évoluer J-Play !
+        </p>
+
+        <div style="text-align: center; margin-bottom: 50px;">
+            <a href="{{ site.github_repo }}" class="btn btn-primary" style="font-size: 1.2em;">
+                📦 Voir sur GitHub
+            </a>
+        </div>
+
+        <h3 style="text-align: center;">Roadmap prioritaire</h3>
+        <div class="roadmap-list">
+            <div class="roadmap-item">
+                <h4>🐛 Stabilité et corrections de bugs</h4>
+                <p>Améliorer la robustesse de l'application existante basée sur les retours utilisateurs</p>
+            </div>
+            <div class="roadmap-item">
+                <h4>📱 Version iPad</h4>
+                <p>Portage iOS (nécessite financement licence développeur Apple)</p>
+            </div>
+            <div class="roadmap-item">
+                <h4>🎹 Support contrôleurs MIDI</h4>
+                <p>Permettre l'utilisation avec d'autres contrôleurs MIDI standards</p>
+            </div>
+            <div class="roadmap-item">
+                <h4>🎵 Nouvelles fonctionnalités musicales</h4>
+                <p>Nouveaux instruments, effets, modes de jeu selon les besoins de la communauté</p>
+            </div>
+            <div class="roadmap-item">
+                <h4>🌍 Traductions</h4>
+                <p>Rendre l'application accessible dans plus de langues</p>
+            </div>
+        </div>
+
+        <div style="max-width: 800px; margin: 50px auto; background: var(--white); padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+            <h3>Comment contribuer ?</h3>
+            <ul style="list-style-position: inside; line-height: 2;">
+                <li>🔍 Tester l'application et signaler des bugs</li>
+                <li>💻 Contribuer au code (voir CONTRIBUTING.md sur GitHub)</li>
+                <li>📝 Améliorer la documentation</li>
+                <li>🌐 Proposer des traductions</li>
+                <li>💡 Suggérer des fonctionnalités</li>
+                <li>🎨 Créer du contenu (tutoriels, vidéos)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Donation Program Section -->
+<section id="donation">
+    <div class="container">
+        <h2>Programme de dons d'instruments</h2>
+        <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto 40px;">
+            Vous êtes une association, une école, un centre médical, une médiathèque ? Nous avons un stock d'instruments J-Play disponibles en don.
+        </p>
+
+        <div class="donation-box">
+            <h3>🎁 Demandez un J-Play pour votre structure</h3>
+            <p style="font-size: 1.15em; margin: 20px 0;">
+                Dans la continuité de notre mission sociale, nous mettons à disposition gratuitement des instruments J-Play pour les structures à vocation éducative, thérapeutique ou sociale.
+            </p>
+            <div style="margin-top: 30px;">
+                <strong>Structures éligibles :</strong><br>
+                Écoles de musique • Collèges • Médiathèques • Centres de musicothérapie<br>
+                Associations d'éducation populaire • Structures médico-sociales
+            </div>
+            <a href="mailto:{{ site.contact_email }}?subject=Demande de don J-Play" class="btn btn-primary" style="margin-top: 30px; background: var(--white); color: var(--primary);">
+                📧 Faire une demande de don
+            </a>
+        </div>
+
+        <div style="max-width: 800px; margin: 60px auto; text-align: center; background: var(--white); padding: 40px; border-radius: 15px;">
+            <h3>Témoignages d'utilisation</h3>
+            <p style="font-style: italic; margin: 20px 0;">
+                "Le J-Play a révolutionné notre approche de la musicothérapie avec les enfants autistes. Son interface intuitive permet une connexion immédiate."
+            </p>
+            <p style="color: var(--primary); font-weight: 600;">— Musicothérapeute, Centre médico-social</p>
+        </div>
+    </div>
+</section>
+
+<!-- Community Section -->
+<section id="community">
+    <div class="container">
+        <h2>Rejoindre la communauté</h2>
+        <p style="text-align: center; font-size: 1.2em; margin-bottom: 50px;">
+            Le J-Play, c'est avant tout une communauté. Rejoignez-nous !
+        </p>
+
+        <div class="community-links">
+            <div class="community-card">
+                <div class="community-icon">💬</div>
+                <h3>Discord</h3>
+                <p>334+ membres</p>
+                <p style="margin: 15px 0;">Support, discussions, partage d'expériences</p>
+                <a href="{{ site.discord_link }}" class="btn btn-primary">Rejoindre</a>
+            </div>
+            <div class="community-card">
+                <div class="community-icon">📦</div>
+                <h3>GitHub</h3>
+                <p>Code source & issues</p>
+                <p style="margin: 15px 0;">Contribuer au développement</p>
+                <a href="{{ site.github_repo }}" class="btn btn-primary">Voir le repo</a>
+            </div>
+            <div class="community-card">
+                <div class="community-icon">📺</div>
+                <h3>YouTube</h3>
+                <p>Tutoriels & demos</p>
+                <p style="margin: 15px 0;">Apprendre à utiliser le J-Play</p>
+                <a href="{{ site.youtube_channel }}" class="btn btn-primary">Voir la chaîne</a>
+            </div>
+        </div>
+
+        <div style="max-width: 800px; margin: 60px auto; text-align: center;">
+            <h3>Vous avez une success story à partager ?</h3>
+            <p style="margin: 20px 0;">
+                Vous utilisez le J-Play de manière inspirante ? Partagez votre expérience avec la communauté !
+            </p>
+            <a href="mailto:{{ site.contact_email }}?subject=Success Story J-Play" class="btn btn-secondary">Partager votre histoire</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p style="font-size: 1.2em; margin-bottom: 20px;">
+            <strong>J-Play Open Source</strong> — La musique pour tous
+        </p>
+        <p>
+            <a href="{{ site.github_repo }}">GitHub</a> • 
+            <a href="{{ site.discord_link }}">Discord</a> • 
+            <a href="{{ site.youtube_channel }}">YouTube</a> • 
+            <a href="mailto:{{ site.contact_email }}">Contact</a>
+        </p>
+        <p style="margin-top: 30px; opacity: 0.7; font-size: 0.9em;">
+            Créé avec ❤️ par la communauté J-Play
+        </p>
+    </div>
+</footer>

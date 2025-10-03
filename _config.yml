@@ -1,6 +1,6 @@
 title: J-Play Open Source
 description: L'instrument de musique accessible à tous continue son aventure
-baseurl: "" # Laissez vide si le repo s'appelle username.github.io, sinon mettez "/nom-du-repo"
+baseurl: "/skills-github-pages" # Laissez vide si le repo s'appelle username.github.io, sinon mettez "/nom-du-repo"
 url: "" # Votre URL GitHub Pages
 
 # Build settings
@@ -20,3 +20,4 @@ github_repo: "https://github.com/VOTRE-USERNAME/VOTRE-REPO"
 discord_link: "https://discord.gg/VOTRE-DISCORD"
 youtube_channel: "https://youtube.com/VOTRE-CHAINE"
 contact_email: "contact@example.com"
+

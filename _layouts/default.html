@@ -9,36 +9,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/logo.png">
-
-<style>
-.lang-switcher {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-    background: var(--cyan);
-    padding: 10px 20px;
-    border-radius: 20px;
-    display: flex;
-    gap: 10px;
-}
-.lang-switcher a {
-    color: var(--black);
-    text-decoration: none;
-    font-weight: 600;
-    padding: 5px 10px;
-}
-.lang-switcher a.active {
-    background: var(--black);
-    color: var(--cyan);
-    border-radius: 10px;
-}
-</style>
-
-    
+    <style>
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: var(--cyan);
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .lang-switcher a {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 5px 10px;
+        }
+        .lang-switcher a.active {
+            background: var(--black);
+            color: var(--cyan);
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
+    {% if page.lang == 'fr' %}
+    <div class="lang-switcher">
+        <a href="{{ site.baseurl }}/index.html">EN</a>
+        <a href="{{ site.baseurl }}/index-fr.html" class="active">FR</a>
+    </div>
+    {% else %}
+    <div class="lang-switcher">
+        <a href="{{ site.baseurl }}/index.html" class="active">EN</a>
+        <a href="{{ site.baseurl }}/index-fr.html">FR</a>
+    </div>
+    {% endif %}
+    
     {{ content }}
 </body>
 </html>

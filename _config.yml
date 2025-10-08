@@ -1,6 +1,6 @@
 title: J-Play Open Source
-description: L'instrument de musique accessible à tous continue son aventure
-baseurl: "/skills-github-pages" # Laissez vide si le repo s'appelle username.github.io, sinon mettez "/nom-du-repo"
+description: The J-Play app goes Open Source
+baseurl: "/jplay-website"
 url: "" # Votre URL GitHub Pages
 
 # Build settings
@@ -16,9 +16,10 @@ exclude:
   - Gemfile.lock
 
 # Variables personnalisées (vous pouvez les utiliser dans vos pages)
-github_repo: "https://github.com/Pjoooo/skills-github-pages/"
+github_repo: "https://github.com/Pjoooo/jplay-opensource/"
 discord_link: "https://discord.gg/6zSnSUtJ"
 youtube_channel: "https://www.youtube.com/channel/UCl-AqtfwG96e9GidTT5WkXA"
 contact_email: "pascal@cutthemustard.fr"
+
 
 

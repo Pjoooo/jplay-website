@@ -1,0 +1,15 @@
+{
+  "name": "Joué Editor",
+  "short_name": "Joué Editor",
+  "description": "Edit and program the modules of Joué J-Pro and J-Play controllers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#323133",
+  "theme_color": "#232224",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

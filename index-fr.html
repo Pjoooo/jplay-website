@@ -28,6 +28,7 @@ lang: fr
         <ul>
             <li><a href="#story">histoire</a></li>
             <li><a href="#download">télécharger</a></li>
+            <li><a href="#editor">éditeur</a></li>
             <li><a href="#developers">développeurs</a></li>
             <!-- <li><a href="#donation">programme de dons</a></li> -->
             <li><a href="#community">communauté</a></li>
@@ -144,6 +145,38 @@ lang: fr
                 📺 <a href="{{ site.youtube_channel }}" style="color: var(--cyan); font-weight: 600;">tutoriels sur YouTube</a><br>
                 💬 <a href="#community" style="color: var(--cyan); font-weight: 600;">support sur Discord</a>
             </p>
+        </div>
+    </div>
+</section>
+
+<!-- Editor Section -->
+<section id="editor">
+    <div class="container">
+        <h2>Joué Editor</h2>
+        <p style="font-size: 1.2em; margin-bottom: 40px;">
+            Programmez les modules de votre J-Pro (notes, canaux, vélocité, contrôles MIDI…) directement dans votre navigateur, sans rien installer. Les modules du J-Play peuvent être lus et leurs réglages consultés.
+        </p>
+
+        <div class="download-grid">
+            <div class="download-card">
+                <div class="download-icon">🎛️</div>
+                <h3>dans votre navigateur</h3>
+                <p>Chrome ou Edge, sur macOS et Windows</p>
+                <a href="{{ site.baseurl }}/editor/" class="btn btn-primary" style="margin-top: 20px;">ouvrir l'éditeur</a>
+            </div>
+            <div class="download-card" style="padding: 0; overflow: hidden; display: flex; align-items: center; background: #323133;">
+                <a href="{{ site.baseurl }}/editor/"><img src="{{ site.baseurl }}/assets/joue-editor.jpg" alt="Le Joué Editor avec un J-Pro connecté : le board, le module sélectionné et ses réglages MIDI" style="display: block; width: 100%; height: auto;"></a>
+            </div>
+        </div>
+
+        <div class="alert">
+            <div class="alert-title">💡 connecter votre Joué</div>
+            <ol style="margin: 15px 0; padding-left: 20px; line-height: 1.8;">
+                <li>Branchez votre J-Pro ou J-Play en USB</li>
+                <li>Ouvrez l'éditeur dans Chrome ou Edge et cliquez sur « Connecter un Joué »</li>
+                <li>Autorisez l'accès MIDI quand le navigateur le demande</li>
+            </ol>
+            <p style="margin-top: 10px;">Vos presets sont enregistrés dans votre navigateur, et peuvent être exportés et importés sous forme de fichiers. Pour utiliser l'éditeur comme une application, qui fonctionne aussi hors ligne, cliquez sur le bouton d'installation dans la barre d'adresse de Chrome ou d'Edge.</p>
         </div>
     </div>
 </section>
